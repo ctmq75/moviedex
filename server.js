@@ -73,7 +73,7 @@ app.use((error, req, res, next) => {
   res.status(500).json(response)
 })
 
-const port = process.env.PORT || 8000
+const PORT= process.env.PORT || 8000
 app.listen(PORT, function(){
   console.log(`Server is listening at http://localhost:${PORT}`)
 })
